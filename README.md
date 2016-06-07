@@ -11,3 +11,10 @@ Shiny从入门到放弃
 * show/hide the chart    显示/隐藏图表
 * show/hide the forecst  显示/隐藏预测
 * download              下载报告
+
+# 示例
+
+```
+install.package("shiny")
+shiny::runGitHub("harryprince/segmentfault-hackathon-2016")
+```

@@ -15,6 +15,6 @@ Shiny从入门到放弃
 # 示例
 
 ```
-install.package("shiny")
+install.package(c("shiny","shinydashboard","highcharter","forecast","dplyr","viridisLite","treemap"))
 shiny::runGitHub("harryprince/segmentfault-hackathon-2016")
 ```
